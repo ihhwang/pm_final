@@ -1,0 +1,31 @@
+{
+  "id": "3121812261",
+  "title": "02. 과제 발표/심사",
+  "space": "PROJMANAGE",
+  "version": 19,
+  "created_by": "진명숙 myoungsook.chin",
+  "last_modified": "2026-05-06T09:15:22.000+09:00",
+  "labels": [],
+  "ancestors": [
+    {
+      "id": "2970383102",
+      "title": "LG SW Project Management 역량인증"
+    },
+    {
+      "id": "2985319803",
+      "title": "🎖️ 역량인증 도전하기!"
+    },
+    {
+      "id": "3085020766",
+      "title": "2단계 과제 평가"
+    },
+    {
+      "id": "3101085651",
+      "title": "과제평가 준비"
+    }
+  ],
+  "depth": 0,
+  "has_images": false,
+  "image_count": 0,
+  "backed_up_at": "2026-06-16T00:47:20.542702"
+}

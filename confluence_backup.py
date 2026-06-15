@@ -11,7 +11,7 @@ Confluence 페이지 + 하위 페이지 로컬 백업 스크립트
         --url https://your-domain.atlassian.net \
         --user your@email.com \
         --token YOUR_API_TOKEN \
-        --page-id 123456789 \
+        --page-id 3121812261 \
         --output ./backup \
         [--anthropic-key YOUR_ANTHROPIC_KEY]  # 이미지 Vision 처리 시 필요
 """
