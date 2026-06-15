@@ -1,0 +1,35 @@
+{
+  "id": "3706244577",
+  "title": "작전계획",
+  "space": "~irene.hwang",
+  "version": 2,
+  "created_by": "황인휘 irene.hwang",
+  "last_modified": "2026-06-15T11:34:11.000+09:00",
+  "labels": [],
+  "ancestors": [
+    {
+      "id": "78714022",
+      "title": "황인휘 irene.hwang’s Home"
+    },
+    {
+      "id": "3649495649",
+      "title": "Project Home"
+    },
+    {
+      "id": "3649495694",
+      "title": "'25_[SmartPlug]_On-Device AI Hub를 위한 스마트 플러그 PoC 개발"
+    },
+    {
+      "id": "3706239257",
+      "title": "발표자료"
+    },
+    {
+      "id": "3706240033",
+      "title": "작전"
+    }
+  ],
+  "depth": 3,
+  "has_images": false,
+  "image_count": 0,
+  "backed_up_at": "2026-06-15T20:48:39.044351"
+}

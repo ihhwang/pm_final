@@ -1,0 +1,31 @@
+{
+  "id": "3649496217",
+  "title": "[SmartPlug]_8.3_프로젝트 리스크 갱신 보고서",
+  "space": "~irene.hwang",
+  "version": 11,
+  "created_by": "황인휘 irene.hwang",
+  "last_modified": "2026-06-09T14:29:21.000+09:00",
+  "labels": [],
+  "ancestors": [
+    {
+      "id": "78714022",
+      "title": "황인휘 irene.hwang’s Home"
+    },
+    {
+      "id": "3649495649",
+      "title": "Project Home"
+    },
+    {
+      "id": "3649495694",
+      "title": "'25_[SmartPlug]_On-Device AI Hub를 위한 스마트 플러그 PoC 개발"
+    },
+    {
+      "id": "3649495702",
+      "title": "[SmartPlug]_08_리스크 관리"
+    }
+  ],
+  "depth": 2,
+  "has_images": false,
+  "image_count": 0,
+  "backed_up_at": "2026-06-15T20:48:25.222455"
+}

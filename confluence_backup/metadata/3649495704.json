@@ -1,0 +1,27 @@
+{
+  "id": "3649495704",
+  "title": "[SmartPlug]_10_조달관리",
+  "space": "~irene.hwang",
+  "version": 9,
+  "created_by": "황인휘 irene.hwang",
+  "last_modified": "2026-06-09T14:36:22.000+09:00",
+  "labels": [],
+  "ancestors": [
+    {
+      "id": "78714022",
+      "title": "황인휘 irene.hwang’s Home"
+    },
+    {
+      "id": "3649495649",
+      "title": "Project Home"
+    },
+    {
+      "id": "3649495694",
+      "title": "'25_[SmartPlug]_On-Device AI Hub를 위한 스마트 플러그 PoC 개발"
+    }
+  ],
+  "depth": 1,
+  "has_images": false,
+  "image_count": 0,
+  "backed_up_at": "2026-06-15T20:48:30.572297"
+}
