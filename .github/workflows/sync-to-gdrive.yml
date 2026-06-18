@@ -25,6 +25,6 @@ jobs:
 
       - name: Sync to Google Drive
         run: |
-          rclone copy . gdrive:${{ secrets.GDRIVE_pm_final_ID }} \
+          rclone copy . gdrive:${{ secrets.GDRIVE_FOLDER_ID }} \
             --include "*.md" \
             --progress
