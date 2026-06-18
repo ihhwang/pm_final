@@ -14,13 +14,15 @@ jobs:
         run: curl https://rclone.org/install.sh | sudo bash
 
       - name: Configure rclone
+        env:
+          RCLONE_TOKEN: ${{ secrets.RCLONE_CONFIG_GDRIVE_TOKEN }}
         run: |
           mkdir -p ~/.config/rclone
           cat > ~/.config/rclone/rclone.conf << EOF
           [gdrive]
           type = drive
           scope = drive
-          token = ${{ secrets.RCLONE_CONFIG_GDRIVE_TOKEN }}
+          token = ${RCLONE_TOKEN}
           EOF
 
       - name: Sync to Google Drive
