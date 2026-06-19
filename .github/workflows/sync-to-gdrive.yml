@@ -1,0 +1,33 @@
+name: Sync to Google Drive
+
+on:
+  workflow_dispatch:  # 수동 실행만
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone
+        env:
+          RCLONE_TOKEN: ${{ secrets.RCLONE_CONFIG_GDRIVE_TOKEN }}
+        run: |
+          mkdir -p ~/.config/rclone
+          cat > ~/.config/rclone/rclone.conf << EOF
+          [gdrive]
+          type = drive
+          scope = drive
+          token = ${RCLONE_TOKEN}
+          EOF
+
+      - name: Sync to Google Drive
+        run: |
+          rclone copy . gdrive: \
+            --drive-root-folder-id ${{ secrets.GDRIVE_PM_FINAL_ID }} \
+            --include "*.md" \
+            --progress
